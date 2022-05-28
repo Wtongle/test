@@ -1,0 +1,34 @@
+.a{
+	background-color: #283643;
+	width: 12rem;
+	margin-bottom: 0;
+	/* padding-top:1rem ; */
+	position: fixed;
+	top:3.5rem;
+	bottom: 0;
+}
+.b:hover{
+	background-color: #3c4248;
+}
+.nav-active{
+	background-color: #3c4248;
+}
+.c{
+	position: fixed;
+	top:3.5rem;
+	bottom: 0;
+	left: 12rem;
+	right: 0;
+}
+.d{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.mianban{
+	height: 3rem;
+	line-height: 3rem;
+	color: #6c757d;
+	border-bottom: 2px solid #E9ECEF;
+}

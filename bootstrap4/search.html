@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="css/style.css" rel="stylesheet">
+		<title>数据查询</title>
+	</head>
+	<body>
+		<div class="bd-example">
+			<nav class="navbar navbar-expand navbar-dark bg-primary navbar-collapse fixed-top">
+				<a class="navbar-brand " href="#">学生管理系统</a>
+				<ul class="navbar-nav ml-auto ">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+						 aria-expanded="false">
+							学生操作
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">个人中心</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">退出</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+
+
+		</div>
+		<div class="bd-example a pt-3">
+			<ul class="nav flex-column ">
+				<li class="nav-item b">
+					<a class="nav-link text-white d" href="index.html">首页</a>
+				</li>
+				<li class="nav-item b">
+					<a class="nav-link text-white d" href="user.html">学生中心</a>
+				</li>
+				<li class="nav-item b">
+					<a class="nav-link text-white d nav-active" href="search.html">数据查询</a>
+				</li>
+				<li class="nav-item b">
+					<a class="nav-link text-white d" href="data.html">数据面板</a>
+				</li>
+				<li class="nav-item b">
+					<a class="nav-link text-white d" href="tip.html">提醒事项<span class="badge badge-pill badge-warning ml-3">4</span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="bd-example c overflow-auto">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active " aria-current="page">数据查询</li>
+				</ol>
+			</nav>
+			<div class="container-fluid">
+				<div class="table-responsive">
+
+					<form class="form-inline mt-2 mb-4">
+						<div class="form-group mr-2 mb-2">
+							<input type="text" class="form-control" placeholder="请输入您的姓名">
+						</div>
+						<div class="form-group mr-2 mb-2">
+							<input type="text" class="form-control" placeholder="请输入您的学生学号">
+						</div>
+						<button type="submit" class="btn btn-primary mb-2">搜索</button>
+					</form>
+				</div>
+				<div class="table-responsive">
+					<table class="table table-striped table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">学生学号</th>
+								<th scope="col">学生姓名</th>
+								<th scope="col">学生课程</th>
+								<th scope="col">学生成绩</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">0001</th>
+								<td>王刚</td>
+								<td>数学</td>
+								<td>89</td>
+							</tr>
+							<tr>
+								<th scope="row">0002</th>
+								<td>小洪</td>
+								<td>英语</td>
+								<td>78</td>
+							</tr>
+							<tr>
+								<th scope="row">0003</th>
+								<td>黎明</td>
+								<td>语文</td>
+								<td>88</td>
+							</tr>
+						</tbody>
+					</table>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination justify-content-end">
+							<li class="page-item">
+								<a class="page-link">上一页</a>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#">下一页</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<script src="js/jquery.slim.min.js"></script>
+			<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
